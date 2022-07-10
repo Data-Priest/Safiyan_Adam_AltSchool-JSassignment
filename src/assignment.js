@@ -18,7 +18,6 @@ function sumOfNumbers(arrayOfNumbers) {
   for ( let i = 0; i < arrayOfNumbers.length; i++) {
      sum += arrayOfNumbers[i]
   }
-    console.log("THE SUM OF NUMBERS IN THE ARRAY IS = " + sum)
        return sum
 }
    assignment.sumOfNumbers = sumOfNumbers;
@@ -37,8 +36,7 @@ function countEvenNumbers(arrayOfNumbers) {
     for ( i = 0; i < arrayOfNumbers.length; i++) {
      if (arrayOfNumbers[i] % 2 === 0)
        count += 1 
-    }  
-   console.log(" THE NUMBER OF EVEN NUMBERS IN THE ARRAY IS = " + count)
+    }
   return count 
 }
     assignment.countEvenNumbers = countEvenNumbers;
